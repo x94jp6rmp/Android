@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="edu.ntut.user.myhw3.MainActivity">
+
+    <TextView
+        android:id="@+id/txtSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sex"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radGrpSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radBtnSex1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/radBtnSex2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/female" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spnAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:prompt="@string/spn_age_list_promt"
+        android:spinnerMode="dialog" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/habbit"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cbmusic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/music" />
+
+            <CheckBox
+                android:id="@+id/cbsing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sing" />
+
+            <CheckBox
+                android:id="@+id/cbdance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dance" />
+
+            <CheckBox
+                android:id="@+id/cbtravel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/travel" />
+
+            <CheckBox
+                android:id="@+id/cbreading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reading" />
+
+            <CheckBox
+                android:id="@+id/cbwriting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/writing" />
+
+            <CheckBox
+                android:id="@+id/cbclimbing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/climbing" />
+
+            <CheckBox
+                android:id="@+id/cbswim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/swim" />
+
+            <CheckBox
+                android:id="@+id/cbeating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eating" />
+
+            <CheckBox
+                android:id="@+id/cbdrawing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/drawing" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnOK"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtSug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/suggestion"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtHabbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="興趣："
+        android:textSize="20sp"/>
+
+</LinearLayout>
