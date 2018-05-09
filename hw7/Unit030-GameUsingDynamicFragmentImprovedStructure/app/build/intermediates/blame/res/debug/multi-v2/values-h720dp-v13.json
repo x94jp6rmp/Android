@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\something\\homework\\app\\hw7\\Unit030-GameUsingDynamicFragmentImprovedStructure\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\賴玟君\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\24dc361bf5972dc251a8611f1c49b3d3\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\something\\homework\\app\\hw7\\Unit030-GameUsingDynamicFragmentImprovedStructure\\app\\build\\intermediates\\res\\merged\\debug\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\賴玟君\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\24dc361bf5972dc251a8611f1c49b3d3\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

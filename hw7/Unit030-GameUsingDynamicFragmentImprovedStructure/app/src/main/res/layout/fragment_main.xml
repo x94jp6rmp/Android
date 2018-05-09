@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/prompt_title"
+        android:textColor="#FF00FF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtCom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="126dp"
+        android:text="@string/prompt_com_play"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/imgBtnDice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:src="@drawable/dice01" />
+
+    <ImageView android:id="@+id/imgViewComPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgBtnDice"
+        android:layout_alignLeft="@id/txtCom" />
+
+    <Button
+        android:id="@+id/btnShowResult1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtTitle"
+        android:layout_marginBottom="112dp"
+        android:text="@string/btn_show_result1"
+        android:textSize="20sp"
+        android:layout_alignLeft="@+id/txtTitle" />
+
+    <Button
+        android:id="@+id/btnShowResult2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtTitle"
+        android:layout_alignTop="@+id/btnShowResult1"
+        android:text="@string/btn_show_result2"
+        android:textSize="20sp"
+        android:layout_alignRight="@+id/txtTitle" />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed May 09 02:00:40 CST 2018
+0.baseType=DIRECTORY
+0.base=D\:\\something\\homework\\app\\hw7\\Unit030-GameUsingDynamicFragmentImprovedStructure\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
