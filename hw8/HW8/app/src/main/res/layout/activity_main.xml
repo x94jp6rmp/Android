@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/item"
+            android:textSize="15sp"
+            android:layout_weight="1"/>
+
+        <Spinner
+            android:id="@+id/spnMeal"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:entries="@array/meal"
+            android:spinnerMode="dropdown"
+            android:layout_weight="5"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/date"
+            android:textSize="15sp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/txtDate"
+            android:focusable="false"
+            android:layout_weight="5"/>
+    </TableRow>
+
+    <DatePicker
+        android:id="@+id/datap"
+        android:datePickerMode="spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/amount"
+            android:textSize="15sp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/txtAmount"
+            android:inputType="number"
+            android:layout_weight="5"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="50dp">
+        <Button
+            android:id="@+id/btnInput"
+            android:text="@string/input"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnRecord"
+            android:text="@string/record"
+            android:layout_weight="1"/>
+    </TableRow>
+
+</TableLayout>
